@@ -1,1 +1,3 @@
-gender
+--create table patientpd(first name varchar(20),last name varchar(10),age int,gender varchar(23),city varchar(20),phoneno int(10))
+--INSERT INTO patientpd VALUES("pri","shankar",20,"female","chennai",9965131649)
+SELECT * FROM patientpd
