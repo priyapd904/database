@@ -1,0 +1,17 @@
+CREATE TABLE doctor( name varchar(20),id int,specilizition varchar(30),phoneno int(10),available_time char(4) CHECK(available_time in ('mor','noon','eve')))
+insert INTO doctor VALUES('vaithyanathan',234,'orthonolagist',101,'noon')
+INSERT INTO doctor VALUES('shyam',235,'pediatrician',234567123,'mor')
+INSERT INTOCREATE TABLE doctor( name varchar(20),id int,specilizition varchar(30),phoneno int(10),available_time char(4) CHECK(available_time in ('mor','noon','eve')))
+insert INTO doctor VALUES('vaithyanathan',234,'orthonolagist',101,'noon')
+INSERT INTO doctor VALUES('shyam',235,'pediatrician',234567123,'mor')
+INSERT INTO doctor VALUES('shyla',456,'nutrientist',2341234563,'noon')
+INSERT INTO doctor VALUES('fathima',123,'naturalist',6784567898,'mor')
+INSERT INTO doctor VALUES('abinaya',237,'eye care specilist',8906754562,'eve')
+SELECT*FROM doctor;
+(20),id iCREATE table consultation( pid int, fees int ,health varchar(20),consult_date date ,CONSTRAINT PFK FOREIGN KEY(pid) REFERENCES hospital(pid));
+INSERT into consultation values(206,500,'leg sprain',date());
+INSERT into consultation values(204,1500,'bone disloacate',date());
+INSERT into consultation values(203,500,'kidney stone',date());
+INSERT into consultation values(204,1000,'fewer',date());
+INSERT into consultation values(205,500,'not well',date());
+SELECT*FROM consultation;
